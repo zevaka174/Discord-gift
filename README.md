@@ -6,7 +6,7 @@
  - The link itself doesn't look exactly the same, but I tried to replicate the discord style.
  - Paste this message and throw it to a friend:
  - ````[https:/discord.gift/SJFjsgvkslSD23adQ1](https://discordgiftforfriend.netlify.app/) (this is an example) ````
-5. Enjoy!
+ - Enjoy!
 
 # 📣 This link was created for fun, soon it will look even more realistic!
 
@@ -18,7 +18,7 @@
  - Сама ссылка выглядит не точь в точь, но я старался повторить стиль дискорда.
  - Вставляем данное сообщение и кидаем другу:
  - ```[https:/discоrd.gift/SJFjsgvkslSD23adQ1](https://discordgiftforfriend.netlify.app/) (это пример) ```
-5. Наслаждаемся!
+ - Наслаждаемся!
 
 # 📣 Данная ссылка создана по приколу, скоро она будет выглядеть ещё реалистичней!
 
