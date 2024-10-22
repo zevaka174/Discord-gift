@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" name="viewport">
+    
+    <!-- Open Graph мета-теги -->
+    <meta property="og:image" content="https://i.ibb.co/gPrBZTD/nitro.png"> <!-- Ссылка на изображение Discord Nitro -->
+    <meta property="og:title" content="You've received a Discord Nitro gift!"> <!-- Заголовок -->
+    <meta property="og:description" content="Click here to claim your Discord Nitro!"> <!-- Описание -->
+    <meta property="og:url" content="https://yourapp.netlify.app"> <!-- URL вашего приложения (замените на ваш) -->
+    
+    <title>You've received a gift!</title>
+    <style>
+        body {
+            background-color: #36393F; /* Цвет фона, как у Discord */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background-color: #2C2F33; /* Темный фон для контейнера */
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            width: 300px; /* Ширина контейнера */
+        }
+        h1 {
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+        p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        img {
+            width: 100%; /* Размер изображения подарка */
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #7289DA; /* Цвет кнопки Discord */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #5B6E9A; /* Более темный цвет при наведении */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.ibb.co/gPrBZTD/nitro.png" alt="Discord Nitro Gift">
+        <h1>You've received a Discord Nitro gift!</h1>
+        <p>Click the button below to claim your gift:</p>
+        <button onclick="redirectToRickroll()">Claim Gift</button>
+    </div>
+
+    <script>
+        function redirectToRickroll() {
+            // Перенаправление на рикролл
+            window.location.href = 'https://shattereddisk.github.io/rickroll/rickroll.mp4';
+        }
+
+        // Автоматическое перенаправление через 10 секунд
+        setTimeout(() => {
+            redirectToRickroll();
+        }, 10000);
+    </script>
+</body>
+</html>
